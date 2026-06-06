@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# FastAPI / Uvicorn
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# HuggingFace cache (optional if you don't want to track large models)
+.cache/
